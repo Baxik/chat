@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <h1>Давай познакомимся!</h1>
+        <p>Расскажи о себе!</p>
+        
+        <!-- Форма для ввода сообщений -->
+        <h2>Оставьте ваше сообщение:</h2>
+        <form id="contactForm">
+            <label for="message">Ваше сообщение:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Напишите ваше сообщение здесь..."></textarea><br><br>
+            <button type="submit">Отправить</button>
+        </form>
+
+        <!-- Контейнер для вывода сообщений -->
+        <div id="messageContainer">
+            <h3>Сообщения:</h3>
+            <div id="messages"></div>
+        </div>
+
+        <a href="index.html">Вернуться на главную</a>
+    </main>
+
+    <footer>
+        © 2024 Мой сайт
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
